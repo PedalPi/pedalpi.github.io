@@ -7,18 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="assets/css/w3.css">
-    <link rel="stylesheet" href="assets/css/css_002.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
 
     <link type="text/css" rel="stylesheet" href="assets/css/css.css" />
-
-    <script type="text/javascript" charset="UTF-8" src="assets/js/common.js" style=""></script>
-    <script type="text/javascript" charset="UTF-8" src="assets/js/map.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="assets/js/util.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="assets/js/marker.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="index_arquivos/onion.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="index_arquivos/controls.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="index_arquivos/stats.js"></script>
   </head>
 
   <body>
@@ -27,82 +17,60 @@
     </header>
 
     <nav id="header">
-      <h2>Menu</h2>
+      <h2 class="hide">Menu</h2>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Band</a></li>
-        <li><a href="#">Tour</a></li>
-        <li><a href="#">Concact</a></li>
+        <li><a href="#research">Pesquisa Científica</a></li>
+        <li><a href="#characteristics">Características</a></li>
+        <li><a href="#software">Software</a></li>
+        <li><a href="#components">Componentes</a></li>
       </ul>
     </nav>
 
-    <main id="content">
+  <main id="content">
 
-      <section id="slideshow">
-        <h2>Images</h2>
+  <section id="slideshow">
+    <h2 class="hide">Images</h2>
 
-        <!--
-        <figure class="slide w3-display-container w3-center">
-          <img src="assets/img/la.jpg" />
-          <figcaption class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-            <h3>Los Angeles</h3>
-            <p>Pedal Pi allows users to assemble their equipment for audio processing.</p>
-          </figcaption>
-        </figure>
-        -->
+    <!--
+    <figure class="slide w3-display-container w3-center">
+      <img src="assets/img/la.jpg" />
+      <figcaption class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Los Angeles</h3>
+        <p>Pedal Pi allows users to assemble their equipment for audio processing.</p>
+      </figcaption>
+    </figure>
+    -->
 
-        <figure class="slide w3-display-container w3-center">
-          <img src="assets/img/example-raspberry-p0-1.jpg" />
-          <figcaption class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-            <h3>New York</h3>
-            <p>The atmosphere in New York is lorem ipsum.</p>
-          </figcaption>
-        </figure>
+    <figure class="slide w3-display-container w3-center">
+      <img src="assets/img/example-raspberry-p0-1.jpg" />
+      <figcaption class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>New York</h3>
+        <p>The atmosphere in New York is lorem ipsum.</p>
+      </figcaption>
+    </figure>
 
-        <figure class="slide w3-display-container w3-center">
-          <img src="assets/img/example-raspberry-p0.jpg" />
-          <figcaption class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-            <h3>Chicago</h3>
-            <p>Thank you, Chicago - A night we won't forget.</p>
-          </figcaption>
-        </figure>
-      </section>
+    <figure class="slide w3-display-container w3-center">
+      <img src="assets/img/example-raspberry-p0.jpg" />
+      <figcaption class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago - A night we won't forget.</p>
+      </figcaption>
+    </figure>
+  </section>
 
+  <section id="research">
+    <h2><img src="assets/img/logo-eripi.png" alt="Pesquisa científica - Congresso ERIPI"/></h2>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card-2">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Pedal Pi</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Pesquisa científica</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Características</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Software</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Componentes</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
-      </div>
-    </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-  </div>
-</div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large">BAND</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large">TOUR</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a>
-  </div>
-
-
-  <section class="w3-container w3-content w3-center" style="max-width:1024px">
-    <h2>Pesquisa</h2>
-    <p>Banner (PT-br)</p>
-    <p>Artigo Científico (PT-br)</p>
+    <ul class="section-center row">
+      <li class="item">
+        <p><a href="">Banner (PT-br)</a></p>
+        <img src="assets/img/article.png" />
+      </li>
+      <li class="item">
+        <p><a href="">Artigo Científico (PT-br)</a></p>
+        <img src="assets/img/article.png" />
+      </li>
+    </ul>
   </section>
 
   <section id="characteristics">
@@ -133,9 +101,10 @@
     </ul>
   </section>
 
-  <section class="section-center">
+  <section id="software" class="section-center">
     <h2>Software</h2>
     <p>O pedal pi roda sobre um ambiente linux + mod-host</p>
+    <img src="assets/img/modular.svg" aria-hidden="true" style="float: left;"/>
 
     <h3>PluginsManager</h3>
     <p>
@@ -143,6 +112,7 @@
       é uma biblioteca para controle de plugins de áudio LV² de alta abstração
       utilizando mod-host
     </p>
+    <img src="assets/img/modular.svg" aria-hidden="true" style="float: right;"/>
 
     <h3>Application</h3>
     <p>
@@ -151,6 +121,7 @@
       Gerencia o pedalboard atual, facilita o processo de armazenamento de dados
       e permite a expansão do controle através de componentes.
     </p>
+    <img src="assets/img/modular.svg" aria-hidden="true" style="float: left;"/>
 
     <h3>Components</h3>
     <p>
@@ -189,7 +160,7 @@
           </div>
         </div>
 
-        <div class="w3-third w3-margin-bottom">
+        <div class="w3-third w3-margin-bottom" style="opacity: .8">
           <img src="assets/img/P1.png" alt="Paris" style="width:100%">
 
           <div class="w3-container w3-white">
