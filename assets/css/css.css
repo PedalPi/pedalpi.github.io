@@ -66,9 +66,34 @@ a {
   margin: 0 auto;
 }
 
+#characteristics {
+  text-align: center;
+}
+
+#characteristics h2 {
+  padding: .5em;
+  display: block;
+  color: white;
+  background: black;
+  text-align: center;
+}
+
 #components {
   background: black;
   padding: 2em;
   color: white;
   text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.row .item {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.row .item img {
+  width: 100%;
 }
