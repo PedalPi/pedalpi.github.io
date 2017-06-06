@@ -123,7 +123,7 @@ main section {
   text-align: center;
 }
 
-#characteristics h2 {
+.section-header {
   padding: .5em;
   display: block;
   color: white;
@@ -131,12 +131,20 @@ main section {
   text-align: center;
 }
 
+#software h3 {
+  background-image: url('../img/modular-single.svg');
+  background-size: 2.5em;
+  background-repeat: no-repeat;
+
+  padding-left: 3em;
+}
 #components {
   background: black;
   padding: 2em;
   color: white;
   text-align: center;
 }
+
 
 .row {
   display: flex;
