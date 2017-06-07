@@ -172,3 +172,14 @@ main section {
     padding: 0 !important;
     width: 0 !important;
 }
+
+
+.card {
+  margin: 2em;
+}
+
+.card-description {
+  padding: .4em .6em;
+  background-color: white;
+  color: black;
+}
