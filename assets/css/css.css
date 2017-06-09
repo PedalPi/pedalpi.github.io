@@ -1,3 +1,28 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+}
 a {
   color: #4078f2;
 }
@@ -68,10 +93,12 @@ a {
  ***********************/
 #research {
   text-align: center;
+  padding: 0;
 }
 #research h2 {
   text-align: center;
   background: #48afa9;
+  margin-top: 0;
 }
 
 #research li img {
@@ -98,7 +125,7 @@ a {
 
 .section-center {
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 auto 2em auto;
 }
 
 main section {
@@ -121,6 +148,7 @@ main section {
   color: white;
   background: black;
   text-align: center;
+  margin-bottom: 2em;
 }
 
 #software h3 {
@@ -194,4 +222,19 @@ main section {
 
 #footer {
   text-align: center;
+}
+
+#footer h2 {
+  margin: 0;
+  padding: .5em;
+}
+
+#network a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#network img {
+  width: 20%;
+  padding-bottom: .5em;
 }
